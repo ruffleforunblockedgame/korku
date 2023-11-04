@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="google.com" />
+<Content type="html"><![CDATA[
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +14,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruffleforunblockedgame/korku@main/style.css">
 <script>document.addEventListener('DOMContentLoaded', (e) => {
 alertLogo("140",{top:"5px",right:"5px"});})
-	</script>
+    </script>
 <script>
 window.addEventListener("keydown", function(e) {
     // space and arrow keys
@@ -23,14 +28,17 @@ window.addEventListener("keydown", function(e) {
 <div id="fb-root"></div>
 <script src="https://cdn.jsdelivr.net/gh/ruffleforunblockedgame/korku@main/box2d.wasm.js"></script>
 <noscript>
-		<div id="notSupportedWrap">
-			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
-			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
-		</div>
-	</noscript>
+        <div id="notSupportedWrap">
+            <h2 id="notSupportedTitle">This content requires JavaScript</h2>
+            <p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+        </div>
+    </noscript>
 <script src="https://cdn.jsdelivr.net/gh/ruffleforunblockedgame/korku@main/scripts/supportcheck.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/ruffleforunblockedgame/korku@main/scripts/offlineclient.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/ruffleforunblockedgame/korku@main/scripts/main.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/ruffleforunblockedgame/korku@main/scripts/register-sw.js"></script>
 </body>
 </html>
+
+]]></Content>
+</Module>
